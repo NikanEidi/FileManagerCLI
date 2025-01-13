@@ -1,0 +1,24 @@
+{
+  "name": "filemanagercli",
+  "version": "1.0.0",
+  "description": "A File Manager CLI application.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "file-manager",
+    "CLI",
+    "nodejs"
+  ],
+  "author": "Nikan Eidi",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "body-parser": "^1.20.3",
+    "chalk": "^5.2.0",
+    "express": "^4.21.2",
+    "unzipper": "^0.12.3"
+  }
+}
